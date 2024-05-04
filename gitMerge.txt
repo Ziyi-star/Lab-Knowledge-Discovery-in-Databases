@@ -1,0 +1,204 @@
+
+C:\Users\Nutzer\Desktop\KDD1>
+C:\Users\Nutzer\Desktop\KDD1>git fetch KDD"
+fatal: 'KDD' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git fetch KDD2
+fatal: 'C:/Program Files/Git/path/to/KDD2' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git remote add KDD2 C:\Users\Nutzer\Desktop\KDD2
+error: remote KDD2 already exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git fetch KDD2 --tags
+fatal: 'C:/Program Files/Git/path/to/KDD2' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Nutzer\Desktop\KDD1>cd C:\Users\Nutzer\Desktop\KDD2
+
+C:\Users\Nutzer\Desktop\KDD2>clear
+Der Befehl "clear" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+
+C:\Users\Nutzer\Desktop\KDD2>cd C:\Users\Nutzer\Desktop\KDD1
+
+C:\Users\Nutzer\Desktop\KDD1>git remote add KDD2 C:\Users\Nutzer\Desktop\KDD2
+error: remote KDD2 already exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git fetch KDD2
+fatal: 'C:/Program Files/Git/path/to/KDD2' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git remote add C:\Users\Nutzer\Desktop\KDD2
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+C:\Users\Nutzer\Desktop\KDD1>git fetch KDD2
+fatal: 'C:/Program Files/Git/path/to/KDD2' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git remote add KDD2 https://github.com/Ziyi-star/KDD2.git
+error: remote KDD2 already exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git fetch KDD2
+fatal: 'C:/Program Files/Git/path/to/KDD2' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git fetch KDD2
+fatal: 'C:/Program Files/Git/path/to/KDD2' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git remote add KDD2
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+C:\Users\Nutzer\Desktop\KDD1>git remote add KDD2 https://github.com/Ziyi-star/KDD2.git
+error: remote KDD2 already exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git checkout -b merge-branch
+Switched to a new branch 'merge-branch'
+
+C:\Users\Nutzer\Desktop\KDD1>git add remote KDD2
+
+C:\Users\Nutzer\Desktop\KDD1> git add remote KDD2 https://github.com/Ziyi-star/KDD2.git
+fatal: pathspec 'remote' did not match any files
+
+C:\Users\Nutzer\Desktop\KDD1>git remote add KDD2 https://github.com/Ziyi-star/KDD2.git
+error: remote KDD2 already exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git fetch KDD2
+fatal: 'C:/Program Files/Git/path/to/KDD2' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git remote add KDD2 https://github.com/Ziyi-star/KDD2.git
+error: remote KDD2 already exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git remote -v
+KDD2    /path/to/KDD2 (fetch)
+KDD2    /path/to/KDD2 (push)
+origin  https://github.com/Ziyi-star/KDD1.git (fetch)
+origin  https://github.com/Ziyi-star/KDD1.git (push)
+
+C:\Users\Nutzer\Desktop\KDD1>git remote set-url KDD2 https://github.com/Ziyi-star/KDD2.git
+
+C:\Users\Nutzer\Desktop\KDD1>git fetch KDD2
+remote: Enumerating objects: 68, done.
+remote: Counting objects: 100% (68/68), done.
+remote: Compressing objects: 100% (64/64), done.
+remote: Total 68 (delta 32), reused 38 (delta 2), pack-reused 0
+Unpacking objects: 100% (68/68), 1.91 MiB | 1.35 MiB/s, done.
+From https://github.com/Ziyi-star/KDD2
+ * [new branch]      master     -> KDD2/master
+
+C:\Users\Nutzer\Desktop\KDD1>mkdir KDD2
+
+C:\Users\Nutzer\Desktop\KDD1>git read-tree --prefix=<name-of-secondary-repo>/ -u secondary/main
+Das System kann die angegebene Datei nicht finden.
+
+C:\Users\Nutzer\Desktop\KDD1>git read-tree --prefix=<name-of-secondary-repo>/ -u secondary/main
+Das System kann die angegebene Datei nicht finden.
+
+C:\Users\Nutzer\Desktop\KDD1>git read-tree --prefix=KDD2/ -u KDD2/main
+fatal: Not a valid object name KDD2/main
+
+C:\Users\Nutzer\Desktop\KDD1>git read-tree --prefix=KDD2/ -u KDD2/master
+
+C:\Users\Nutzer\Desktop\KDD1>git commit -m "Merged KDD2 into kdd1"
+[merge-branch 431edc9] Merged KDD2 into kdd1
+ 9 files changed, 1257 insertions(+)
+ create mode 100644 KDD2/.ipynb_checkpoints/KDDOpticsVornameNachname-checkpoint.ipynb
+ create mode 100644 KDD2/Algorithmus from Paper.txt
+ create mode 100644 KDD2/Dok1.docx
+ create mode 100644 KDD2/KDDOpticsVornameNachname.ipynb
+ create mode 100644 KDD2/OPTICS-ankerst-1999.pdf
+ create mode 100644 KDD2/README.md
+ create mode 100644 KDD2/iris.csv
+ create mode 100644 KDD2/optics.png
+ create mode 100644 KDD2/punkte.csv
+
+C:\Users\Nutzer\Desktop\KDD1>git push origin merge-branch
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Ziyi-star/KDD1.git/'
+
+C:\Users\Nutzer\Desktop\KDD1>git push merge-branch
+fatal: 'merge-branch' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git push KDD1 merge-branch
+fatal: 'KDD1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Nutzer\Desktop\KDD1>git push origin merge-branch
+info: please complete authentication in your browser...
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 1.82 MiB | 2.30 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'merge-branch' on GitHub by visiting:
+remote:      https://github.com/Ziyi-star/KDD1/pull/new/merge-branch
+remote:
+To https://github.com/Ziyi-star/KDD1.git
+ * [new branch]      merge-branch -> merge-branch
+
+C:\Users\Nutzer\Desktop\KDD1>git remote remove KDD2
+
+C:\Users\Nutzer\Desktop\KDD1>git merge --allow-unrelated-histories KDD2/master
+merge: KDD2/master - not something we can merge
+
+C:\Users\Nutzer\Desktop\KDD1>git merge --allow-unrelated-histories project-a/master
+merge: project-a/master - not something we can merge
+
+C:\Users\Nutzer\Desktop\KDD1>

@@ -1,7 +1,7 @@
 
-# Knowledge Discovery in Databases (KDD)
+# Knowledge Discovery in Databases
 
-Welcome to the **KDD** repository! This project is designed as a part of a coursework or assignment in the field of Knowledge Discovery in Databases, focusing on data mining, data analysis, and knowledge extraction techniques. The repository includes Jupyter Notebooks that demonstrate key KDD concepts, algorithms, and applications.
+Welcome to the **Knowledge Discovery** repository! This project is designed as a part of a coursework or assignment in the field of Knowledge Discovery in Databases, focusing on data mining, data analysis, and knowledge extraction techniques. The repository includes Jupyter Notebooks that demonstrate key KDD concepts, algorithms, and applications.
 
 ## Table of Contents
 - [Overview](#overview)
